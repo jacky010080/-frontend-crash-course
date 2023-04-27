@@ -158,3 +158,61 @@ header .header-right {
   top: 0;
   right: 0;
 }
+
+
+.best-selling {
+  margin: 96px 96px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.best-selling p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+}
+.best-selling .selling-text {
+  width: 20vw;
+}
+.best-selling .selling-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1E1E1E;
+}
+.best-selling .selling-text p {
+  margin: 12px 0 24px;
+}
+.best-selling .selling-text button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  background: #C1DCDC;
+  border: none;
+  border-radius: 8px;
+}
+.best-selling .selling-text button img {
+  margin-left: 12px;
+}
+.best-selling .selling-products {
+  width: 60vw;
+}
+.best-selling .selling-products ul {
+  display: flex;
+  justify-content: end;
+}
+.best-selling .selling-products ul li {
+  margin-left: 3vw;
+}
+.best-selling h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 12px 0 7px;
+}
+
