@@ -297,3 +297,50 @@ header .header-right {
 .categories .categories-plant button img {
   margin-left: 12px;
 }
+
+.swiper {
+  margin: 48px 96px;
+}
+.swiper .swiper-item {
+  display: flex;
+  gap: 48px;
+}
+.swiper .swiper-item .card {
+  background-color: #C1DCDC;
+  width: 55vw;
+  margin-top: 48px;
+  padding: 48px 48px 0 48px;
+  border-radius: 12px;
+}
+.swiper .swiper-item .card p {
+  margin-bottom: 48px;
+  color: rgba(30, 30, 30, 0.75);
+}
+.swiper .card .customer {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+.swiper .card .customer .pic {
+  align-self: end;
+}
+.swiper .card .customer .evaluate {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 60vw;
+}
+.swiper .card .customer .evaluate .text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+.swiper .card .customer .evaluate .point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+
